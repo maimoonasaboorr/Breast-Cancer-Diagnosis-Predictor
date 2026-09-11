@@ -10,8 +10,8 @@ The model trains directly on the 10 most important features instead of all 30 fe
 
 ## Dataset
 
-- **Source:** [Wisconsin Breast Cancer Diagnostic dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic) (`data.csv`)
-- **569 samples**, 30 numeric features describing cell nuclei from digitized images of breast mass biopsies (radius, texture, perimeter, area, smoothness, concavity, etc.), each reported as a mean, standard error, and "worst" value
+- **Source:** [Wisconsin Breast Cancer Diagnostic dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) (`data.csv`)
+- **569 samples**, 30 numeric features describing cell nuclei from digitized images of breast mass biopsies (radius,- texture, perimeter, area, smoothness, concavity, etc.), each reported as a mean, standard error, and "worst" value
 - **Target:** `diagnosis` — Malignant (M) or Benign (B), label-encoded to 1/0
 - Class balance: 357 benign, 212 malignant
 - No missing values or duplicates in the feature set (an empty `Unnamed: 32` column and the `id` column were dropped)
