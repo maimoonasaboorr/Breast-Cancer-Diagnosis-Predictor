@@ -1,4 +1,4 @@
-# Breast Cancer Classifier
+# Breast Cancer Prediction using ML
 
 A machine learning web app that predicts whether a breast tumor is **benign** or **malignant** from cell nuclei measurements, built on the Wisconsin Breast Cancer dataset and deployed as an interactive [Streamlit](https://streamlit.io/) app.
 
